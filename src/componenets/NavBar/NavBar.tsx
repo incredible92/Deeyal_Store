@@ -7,10 +7,10 @@ import "./NavBar.scss"
 const links = [
   
   {name: "Home", path: "/home" },
-  { name: "Aboutus", path: "/about" },
-  { name: "Order", path: "/order" },
+  { name: "About us", path: "/about" },
+  { name: "Catalog", path: "/catalog" },
   { name: "Login", path: "/login" },
-  { name: "contact", path: "/contact" },
+  { name: "Contact", path: "/contact" },
 
 ];
 const NavBar:FC = () => {
@@ -23,7 +23,7 @@ const NavBar:FC = () => {
         <NavLink
           key={`dash-nav_link-${linkIndex}`}
           to={link.path}
-          className="ml-12 cursor-pointer text-sm border-b-4 border-transparent hidden lg:inline py-1"
+          className="ml-12 cursor-pointer text-base border-b-4 border-transparent hidden lg:inline py-1 text-gray-300"
         >
           {link.name}
         </NavLink>

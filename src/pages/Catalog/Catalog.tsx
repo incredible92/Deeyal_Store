@@ -5,7 +5,7 @@ import "./Catalog.scss";
 const Catalog:FC = () => {
   return (
     <div>
-      <h1>Place Your Order</h1>
+      <h1>Place Your Order NOW!!!</h1>
     </div>
   )
 }

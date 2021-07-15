@@ -1,15 +1,22 @@
-import React,{FC} from 'react'
-import NavBar from '../../componenets/NavBar/NavBar'
+import React, { FC } from "react";
+import NavBar from "../../componenets/NavBar/NavBar";
+import fashion from "../../assests/fashion.png";
 
-import "./Home.scss"
+import "./Home.scss";
 
-const Home:FC = () => {
+const Home: FC = () => {
   return (
     <div>
       <NavBar />
-      <h1 className=" welcome flex text-black-400 items-center justify-center py-8 text-4xl">Welcome To Deeyal Store</h1>
-    </div>
-  )
-}
 
-export default Home
+      <img
+        className="flex chain  items-center justify-center"
+        src={fashion}
+        alt="apparel"
+      />
+     
+    </div>
+  );
+};
+
+export default Home;

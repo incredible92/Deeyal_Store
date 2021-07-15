@@ -8,7 +8,7 @@ const Home: FC = () => {
   return (
     <div>
       <NavBar />
-
+      
       <img
         className="flex chain  items-center justify-center"
         src={fashion}

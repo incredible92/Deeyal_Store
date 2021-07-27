@@ -13,10 +13,11 @@ const links = [
 ];
 const NavBar: FC = () => {
   return (
+    <>
     <nav className="navBar">
       <img className="logo" src={logo} />
       <div className="general-search relative m-28 top-4">
-        <form className=" search general-search shadow bg-white rounded mb-8 px-1 py-1 flex items-center border-2 transition-colors duration-500 ease-in-out relative z-20">
+        <form className=" search general-search shadow bg-white rounded mb-8 px-1 py-1 flex items-center border-2 transition-colors duration-500 ease-in-out relative">
           <input
             type="text"
             className="flex-grow px-2 focus:outline-none border-none"
@@ -27,17 +28,18 @@ const NavBar: FC = () => {
           </button>
         </form>
       </div>
-      {/* <span className="grow" /> */}
+  
       {links.map((link, linkIndex) => (
         <NavLink
           key={`dash-nav_link-${linkIndex}`}
           to={link.path}
-          className="ml-12 cursor-pointer text-base border-b-4 border-transparent hidden lg:inline py-1 text-gray-300"
+          className="cursor-pointer text-base border-b-4 font-bold border-transparent hidden lg:inline  text-gray-300"
         >
           {link.name}
         </NavLink>
       ))}
     </nav>
+    </>
   );
 };
 

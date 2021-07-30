@@ -5,6 +5,8 @@ import Aboutus from "./pages/Aboutus/About";
 import Catalog from './pages/Catalog/Catalog';
 import Login from './pages/Login/Login';
 import Contact from './pages/Contact/Contact';
+import Register from './pages/Register/Register';
+
 
 import './App.scss'
 
@@ -20,6 +22,7 @@ function App() {
       <Route path="/home" component={Home} />
       <Route path="/about" component={Aboutus} />
       <Route path="/catalog" component={Catalog} />
+      <Route path="/register" component={Register} />
       <Route path="/login" component={Login} />
       <Route path="/contact" component={Contact} />
     </Switch>

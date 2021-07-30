@@ -1,17 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./Register.scss";
 
-
-import "./Login.scss";
-
-function Login() {
- 
+function Register() {
   return (
     <div className="wrapper">
-      <h2>LOGIN</h2>
-      <p className="text">
-        Kindly login into your account
-      </p>
+      <h2>REGISTER</h2>
       <div className="form1">
         <span>Username</span>
         <input
@@ -25,22 +19,22 @@ function Login() {
         <span className="password">Password</span>
         <input
           className="login-details "
-          type="password"
+          type="text"
           name="password"
           placeholder="Enter your password"
           required
         />
-        <button className="submit">Submit</button>
+        <button className="submit">Register Account</button>
       </div>
       <p>
-        Don't have account?
-        <Link className="reg" to="/register">
+        Already have an account?
+        <Link className="reg" to="/login">
           {" "}
-          <span className="text">Register</span>
+          <span className="text">Login</span>
         </Link>
       </p>
     </div>
   );
 }
 
-export default Login
+export default Register;

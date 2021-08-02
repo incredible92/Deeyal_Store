@@ -5,7 +5,7 @@ import "./Register.scss";
 function Register() {
   return (
     <div className="wrapper">
-      <h2>REGISTER</h2>
+      <h2 className="text">REGISTER</h2>
       <div className="form1">
         <span>Username</span>
         <input
@@ -22,6 +22,14 @@ function Register() {
           type="text"
           name="password"
           placeholder="Enter your password"
+          required
+        />
+            <span className="password">Email</span>
+        <input
+          className="login-details "
+          type="text"
+          name="password"
+          placeholder="Enter your email"
           required
         />
         <button className="submit">Register Account</button>

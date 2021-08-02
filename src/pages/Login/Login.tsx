@@ -8,7 +8,7 @@ function Login() {
  
   return (
     <div className="wrapper">
-      <h2>LOGIN</h2>
+      <h2 className="text">LOGIN</h2>
       <p className="text">
         Kindly login into your account
       </p>

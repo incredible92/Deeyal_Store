@@ -5,7 +5,7 @@ import icon from '../../assests/chains.png'
 const About = () => {
   return (
     <div className="flex justify-between">
-      <span className="flex justify-center items-center w-2/5 text-xl p-10 text-white">
+      <span className="flex justify-center items-center w-3/5 text-xl p-12 text-black font-bold">
         Welcome to Deeyal store,<br /> your number one source for all accessories💍and
         unisex fashion apparels💫✨ . We're dedicated to giving you the very
         best of customized fashion apparels, with a focus on jewellery, shoes &
@@ -19,7 +19,7 @@ const About = () => {
         them to you. If you have any questions or comments, please don't
         hesitate to contact us.
       </span>
-      <img src={icon} className="mt-6" />
+      <img src={icon} className="mt-6 mr-10" />
     </div>
   );
 };

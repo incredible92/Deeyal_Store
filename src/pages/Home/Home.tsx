@@ -10,8 +10,8 @@ const Home: FC = () => {
       <NavBar />
       <div className="grid grid-cols-2">
         <div className=" m-20 ">
-          <p className="welcome text-5xl font-bold">Welcome to Deeyal Store</p>
-          <p className="text-2xl mt-4 font-semibold ad">
+          <h1 className="welcome text-5xl font-bold">Welcome to Deeyal Store</h1>
+          <p className="text-2xl mt-8 font-semibold ad">
             {" "}
             We vend customized accessories💍and unisex fashion apparels💫✨🥰
             with unlimited enthusiasm and creativeness, <br /> we are creating what we
@@ -22,7 +22,7 @@ const Home: FC = () => {
         </div>
         <div>
           <img
-            className="flex chain  items-center justify-center"
+            className="flex chain  items-center justify-center mt-24 pr-10"
             src={fashion}
             alt="apparel"
           />

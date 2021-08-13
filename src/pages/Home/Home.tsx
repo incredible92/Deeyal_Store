@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import NavBar from "../../componenets/NavBar/NavBar";
-import fashion from "../../assests/fashion.png";
+import fashion from "../../assests/download (4).jpg";
 
 import "./Home.scss";
 
@@ -10,7 +10,7 @@ const Home: FC = () => {
       <NavBar />
       <div className="grid grid-cols-2">
         <div className=" m-20 ">
-          <h1 className="welcome text-5xl font-bold">Welcome to Deeyal Store</h1>
+          <h1 className="welcome text-5xl font-bold ">Welcome to Deeyal Store</h1>
           <p className="text-2xl mt-8 font-semibold ad">
             {" "}
             We vend customized accessories💍and unisex fashion apparels💫✨🥰
@@ -22,10 +22,11 @@ const Home: FC = () => {
         </div>
         <div>
           <img
-            className="flex chain  items-center justify-center mt-24 pr-10"
+            className="flex chain  items-center justify-center mt-24  h-96 w-3/4 relative"
             src={fashion}
             alt="apparel"
           />
+          <span className="absolute text-4xl font-bold deeyah">Deeyal</span>
         </div>
       </div>
       <h2></h2>

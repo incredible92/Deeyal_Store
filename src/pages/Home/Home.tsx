@@ -13,7 +13,7 @@ const Home: FC = () => {
           <h1 className="welcome text-5xl font-bold ">Welcome to Deeyal Store</h1>
           <p className="text-2xl mt-8 font-semibold ad">
             {" "}
-            We vend customized accessories💍and unisex fashion apparels💫✨🥰
+            We vend customized accessories💍and unisex fashion apparels💫✨
             with unlimited enthusiasm and creativeness, <br /> we are creating what we
             believe that will make you happy with unique look and best prices.
           </p>
@@ -26,11 +26,11 @@ const Home: FC = () => {
             src={fashion}
             alt="apparel"
           />
-          <span className="absolute text-4xl font-bold deeyah">Deeyal</span>
+          <span className="text-4xl font-bold deeyah fixed">Deeyal</span>
         </div>
       </div>
       <h2></h2>
-      <h2 className="flex justify-center items-center font-bold p-4 text-3xl  mt-8">
+      <h2 className="flex justify-center items-center font-bold p-4 text-3xl  mt-8 text-white">
         FEATURED COLLECTIONS
       </h2>
       

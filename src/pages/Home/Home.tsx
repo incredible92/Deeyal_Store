@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import NavBar from "../../componenets/NavBar/NavBar";
 import fashion from "../../assests/download (4).jpg";
 import feature from "../../assests/fashion.png";
-
+import Product from "../../componenets/products/product";
 
 import "./Home.scss";
 
@@ -32,14 +32,12 @@ const Home: FC = () => {
           <span className="text-4xl font-bold deeyah absolute">Deeyal</span>
         </div>
       </div>
-      <h2></h2>
+    
       <h2 className="flex justify-center items-center font-bold p-4 text-3xl  mt-8 text-white">
         FEATURED COLLECTIONS
       </h2>
-      <div  className="flex justify-center items-center">
-      <img src={feature} alt="apparel" />
-  
-      </div>
+        <Product />
+      
      
       
     </>

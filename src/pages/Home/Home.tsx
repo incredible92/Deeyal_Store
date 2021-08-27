@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import NavBar from "../../componenets/NavBar/NavBar";
 import fashion from "../../assests/download (4).jpg";
 import feature from "../../assests/fashion.png";
-import Product from "../../componenets/products/product";
+import Product from "../../componenets/products/Product";
 
 import "./Home.scss";
 
@@ -13,7 +13,7 @@ const Home: FC = () => {
       <NavBar />
       <div className="grid grid-cols-2">
         <div className=" m-20 ">
-          <h1 className="welcome text-5xl font-bold ">Welcome to Deeyal Store</h1>
+          <h1 className="welcome text-5xl font-bold ">Welcome to Deeyal</h1>
           <p className="text-2xl mt-8 font-semibold ad">
             {" "}
             We vend customized accessories and unisex fashion apparels

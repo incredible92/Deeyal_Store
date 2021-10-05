@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavBar from "../../componenets/NavBar/NavBar";
 
 
 import "./Login.scss";
@@ -7,6 +8,8 @@ import "./Login.scss";
 function Login() {
  
   return (
+    <>
+    <NavBar />
     <div className="wrapper">
       <h2 className="text">LOGIN</h2>
       <p className="text">
@@ -40,6 +43,7 @@ function Login() {
         </Link>
       </p>
     </div>
+    </>
   );
 }
 

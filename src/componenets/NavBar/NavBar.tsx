@@ -33,7 +33,7 @@ const NavBar: FC = () => {
         <NavLink
           key={`dash-nav_link-${linkIndex}`}
           to={link.path}
-          className="cursor-pointer text-base border-b-4 font-bold border-transparent hidden lg:inline  links"
+          className="  cursor-pointer text-base border-b-4 font-bold border-transparent hidden lg:inline  links"
         >
           {link.name}
         </NavLink>

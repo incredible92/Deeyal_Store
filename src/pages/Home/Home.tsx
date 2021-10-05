@@ -1,7 +1,6 @@
 import React, { FC } from "react";
 import NavBar from "../../componenets/NavBar/NavBar";
 import fashion from "../../assests/download (4).jpg";
-import feature from "../../assests/fashion.png";
 import Product from "../../componenets/products/Product";
 
 import "./Home.scss";

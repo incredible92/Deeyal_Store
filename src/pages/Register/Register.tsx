@@ -1,9 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import NavBar from "../../componenets/NavBar/NavBar";
 import "./Register.scss";
 
 function Register() {
   return (
+    <>
+    <NavBar />
     <div className="wrapper">
       <h2 className="text">REGISTER</h2>
       <div className="form1">
@@ -42,6 +45,7 @@ function Register() {
         </Link>
       </p>
     </div>
+    </>
   );
 }
 

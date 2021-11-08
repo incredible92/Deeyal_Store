@@ -20,7 +20,7 @@ const Home: FC = () => {
             believe that will make you happy with unique look and best prices.
           </p>
           
-          <button  className="w-72 h-16 font-bold text-2xl mt-20 check rounded ">Check collections ----></button>
+          <button  className="w-72 h-16 font-bold text-2xl mt-20 check rounded ">Check collections</button>
         </div>
         <div>
           <img

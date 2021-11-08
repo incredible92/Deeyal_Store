@@ -15,7 +15,7 @@ const NavBar: FC = () => {
   return (
     <>
     <nav className="navBar">
-      <img className="logo" src={logo} />
+   <img className="logo" src={logo} /> 
       <div className="general-search relative m-28 top-4">
         <form className=" search general-search shadow bg-white rounded mb-8 px-1 py-1 flex items-center border-2 transition-colors duration-500 ease-in-out relative">
           <input

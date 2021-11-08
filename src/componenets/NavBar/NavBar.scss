@@ -14,6 +14,7 @@
   width: 4.5rem;
   border-radius: 50%;
   margin-left: 4rem;
+  border: 2px solid whitesmoke;
 }
 
 .links {
@@ -24,7 +25,7 @@
 .links::after {
   content: '';
   width: 0%;
-  height: 2px;
+  height: 4px;
   background: #d6bed6;
   display: block;
   margin: auto;
